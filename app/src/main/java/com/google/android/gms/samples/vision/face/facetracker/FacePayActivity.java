@@ -59,7 +59,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * overlay graphics to indicate the position, size, and ID of each face.
  */
 public final class FacePayActivity extends AppCompatActivity {
-    private static final String TAG = "FaceTracker";
+    private static final String TAG = "FacePay";
 
     private CameraSource mCameraSource = null;
 
@@ -431,7 +431,7 @@ public final class FacePayActivity extends AppCompatActivity {
 
     private void createService() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.101.1.229:3000")
+                .baseUrl("http://ec2-13-250-14-99.ap-southeast-1.compute.amazonaws.com:3000")
 //                .baseUrl("https://tinklab-5f0a1.firebaseio.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();

@@ -58,6 +58,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Activity for the face tracker app.  This app detects faces with the rear facing camera, and draws
  * overlay graphics to indicate the position, size, and ID of each face.
  */
+@SuppressWarnings("unchecked")
 public final class FacePayActivity extends AppCompatActivity {
     private static final String TAG = "FacePay";
 
@@ -431,8 +432,7 @@ public final class FacePayActivity extends AppCompatActivity {
 
     private void createService() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://ec2-13-250-14-99.ap-southeast-1.compute.amazonaws.com:3000")
-//                .baseUrl("https://tinklab-5f0a1.firebaseio.com")
+                .baseUrl("http://ec2-13-250-11-244.ap-southeast-1.compute.amazonaws.com:3000")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

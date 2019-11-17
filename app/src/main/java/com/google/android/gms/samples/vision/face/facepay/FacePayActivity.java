@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.android.gms.samples.vision.face.facetracker;
+package com.google.android.gms.samples.vision.face.facepay;
 
 import android.Manifest;
 import android.app.Activity;
@@ -39,8 +39,8 @@ import com.google.android.gms.vision.MultiProcessor;
 import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.FaceDetector;
-import com.google.android.gms.samples.vision.face.facetracker.ui.camera.CameraSourcePreview;
-import com.google.android.gms.samples.vision.face.facetracker.ui.camera.GraphicOverlay;
+import com.google.android.gms.samples.vision.face.facepay.ui.camera.CameraSourcePreview;
+import com.google.android.gms.samples.vision.face.facepay.ui.camera.GraphicOverlay;
 
 import java.io.IOException;
 import java.util.List;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.android.gms.samples.vision.face.facetracker"
+    package="com.google.android.gms.samples.vision.face.facepay"
     android:installLocation="auto"
     android:versionCode="1"
     android:versionName="1">
@@ -29,7 +29,7 @@
             android:value="face" />
 
         <activity
-            android:name="com.google.android.gms.samples.vision.face.facetracker.FacePayActivity"
+            android:name="com.google.android.gms.samples.vision.face.facepay.FacePayActivity"
             android:icon="@drawable/facepay"
             android:label="Face Pay"
             android:theme="@style/Theme.AppCompat.NoActionBar"

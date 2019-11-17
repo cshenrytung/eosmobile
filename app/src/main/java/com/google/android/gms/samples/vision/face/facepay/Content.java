@@ -1,4 +1,4 @@
-package com.google.android.gms.samples.vision.face.facetracker;
+package com.google.android.gms.samples.vision.face.facepay;
 
 /**
  * Created by chiyungtung on 31/3/2017.

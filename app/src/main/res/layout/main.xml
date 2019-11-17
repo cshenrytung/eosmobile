@@ -11,17 +11,17 @@
       android:layout_width="match_parent"
       android:layout_height="640dp">
 
-    <com.google.android.gms.samples.vision.face.facetracker.ui.camera.CameraSourcePreview
+    <com.google.android.gms.samples.vision.face.facepay.ui.camera.CameraSourcePreview
         android:id="@+id/preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-      <com.google.android.gms.samples.vision.face.facetracker.ui.camera.GraphicOverlay
+      <com.google.android.gms.samples.vision.face.facepay.ui.camera.GraphicOverlay
           android:id="@+id/faceOverlay"
           android:layout_width="match_parent"
           android:layout_height="match_parent" />
 
-    </com.google.android.gms.samples.vision.face.facetracker.ui.camera.CameraSourcePreview>
+    </com.google.android.gms.samples.vision.face.facepay.ui.camera.CameraSourcePreview>
   </LinearLayout>
 
   <LinearLayout
